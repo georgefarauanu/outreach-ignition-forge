@@ -4,16 +4,32 @@ import { Badge } from "@/components/ui/badge";
 
 const plans = [
   {
+    name: "Free",
+    price: "$0",
+    period: "forever",
+    description: "Perfect for individuals getting started with cold outreach. No credit card required.",
+    features: [
+      "100 prospects per month",
+      "1 active campaign",
+      "Basic LinkedIn integration",
+      "5 email sequences",
+      "Standard templates",
+      "Community support"
+    ],
+    popular: false,
+    buttonText: "Get Started Free"
+  },
+  {
     name: "Starter",
     price: "$29",
     period: "per month",
-    description: "Perfect for solopreneurs and small teams getting started with cold outreach.",
+    description: "Ideal for solopreneurs and small teams scaling their outreach efforts.",
     features: [
-      "500 prospects per month",
-      "3 active campaigns",
-      "Basic LinkedIn integration",
-      "Email sequences",
-      "Standard templates",
+      "1,000 prospects per month",
+      "5 active campaigns",
+      "Full LinkedIn + Email",
+      "AI message generation",
+      "Custom sequences",
       "Email support"
     ],
     popular: false,
@@ -25,14 +41,13 @@ const plans = [
     period: "per month", 
     description: "Advanced features for growing sales teams who need more power and customization.",
     features: [
-      "2,000 prospects per month",
+      "5,000 prospects per month",
       "Unlimited campaigns",
-      "Full LinkedIn + Email",
-      "AI message generation",
-      "Custom sequences",
+      "Advanced AI personalization",
       "Conditional logic",
       "Advanced analytics",
-      "Priority support"
+      "Priority support",
+      "Team collaboration"
     ],
     popular: true,
     buttonText: "Start Free Trial"
@@ -75,7 +90,7 @@ const Pricing = () => {
           </p>
         </div>
         
-        <div className="grid lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
           {plans.map((plan, index) => (
             <Card 
               key={index}
