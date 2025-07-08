@@ -1,28 +1,28 @@
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
-import { Users, Target, Zap, Heart } from "lucide-react";
+import { Code, Database, Zap, Settings } from "lucide-react";
 
 const About = () => {
   const values = [
     {
-      icon: <Target className="w-6 h-6" />,
-      title: "Precision Targeting",
-      description: "We believe in quality over quantity. Our AI helps you reach the right prospects with personalized messages that convert."
+      icon: <Code className="w-6 h-6" />,
+      title: "AI-First Architecture",
+      description: "Every feature is built around machine learning models that continuously optimize for better performance and higher conversion rates."
     },
     {
       icon: <Zap className="w-6 h-6" />,
-      title: "Automation Excellence",
-      description: "Save hours every day with intelligent automation that feels human. Focus on closing deals, not manual outreach."
+      title: "Real-Time Processing",
+      description: "Our distributed systems process millions of data points in real-time to deliver intelligent insights and automated decisions."
     },
     {
-      icon: <Users className="w-6 h-6" />,
-      title: "Relationship First",
-      description: "Cold outreach doesn't have to be cold. We help you build genuine connections that turn into lasting business relationships."
+      icon: <Database className="w-6 h-6" />,
+      title: "Data-Driven Intelligence",
+      description: "Advanced analytics and predictive modeling power our recommendation engine for optimal outreach timing and content."
     },
     {
-      icon: <Heart className="w-6 h-6" />,
-      title: "Customer Success",
-      description: "Your success is our success. We're committed to helping you achieve your outreach goals with dedicated support."
+      icon: <Settings className="w-6 h-6" />,
+      title: "Scalable Infrastructure",
+      description: "Built on cloud-native architecture with auto-scaling capabilities to handle enterprise-level workloads effortlessly."
     }
   ];
 
@@ -31,35 +31,35 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="text-center space-y-4 mb-16">
           <Badge className="bg-primary/10 text-primary border-primary/20">
-            🚀 Our Story
+            🤖 AI-Powered Technology
           </Badge>
           <h2 className="text-3xl lg:text-5xl font-bold text-foreground">
             About
             <span className="bg-gradient-primary bg-clip-text text-transparent"> OutreachPro</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Born from the frustration of ineffective cold outreach, we're on a mission to transform 
-            how businesses connect with their ideal prospects.
+            Built by engineers who understand the complexity of modern sales automation. We leverage 
+            cutting-edge AI and machine learning to revolutionize B2B outreach at scale.
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-16 items-center mb-20">
           <div className="space-y-6">
             <div className="space-y-4">
-              <h3 className="text-2xl font-bold text-foreground">Our Mission</h3>
+              <h3 className="text-2xl font-bold text-foreground">Our Technology Stack</h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                We empower sales professionals and entrepreneurs to build meaningful connections through 
-                intelligent, personalized outreach. By combining LinkedIn automation with AI-powered 
-                personalization, we help you scale your outreach while maintaining authenticity.
+                Built on a modern microservices architecture with advanced natural language processing, 
+                our platform integrates seamlessly with LinkedIn's API and SMTP protocols. We utilize 
+                machine learning algorithms for behavioral analysis and predictive engagement optimization.
               </p>
             </div>
             
             <div className="space-y-4">
-              <h3 className="text-2xl font-bold text-foreground">Why We Started</h3>
+              <h3 className="text-2xl font-bold text-foreground">Engineering Excellence</h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                After sending thousands of generic cold emails and LinkedIn messages with poor results, 
-                our founders realized there had to be a better way. OutreachPro was built to solve the 
-                challenge of scaling personalized outreach without losing the human touch.
+                Our engineering team solved the scalability problem of personalized outreach through 
+                proprietary AI models and intelligent automation pipelines. Every message is processed 
+                through our ML engine for optimal timing, content, and delivery channel selection.
               </p>
             </div>
           </div>
