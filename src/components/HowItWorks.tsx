@@ -4,27 +4,27 @@ import { Badge } from "@/components/ui/badge";
 const steps = [
   {
     step: "01",
-    title: "Connect LinkedIn & Email",
-    description: "Integrate your LinkedIn account and email provider in minutes. Our secure connection ensures your data stays safe.",
-    details: "✓ LinkedIn Sales Navigator support\n✓ Gmail & Outlook integration\n✓ Safe sending limits"
+    title: "API Integration & Authentication",
+    description: "Establish secure OAuth connections to LinkedIn Graph API and SMTP protocols with enterprise-grade encryption.",
+    details: "✓ RESTful API endpoints\n✓ JWT token authentication\n✓ Rate limiting & throttling"
   },
   {
     step: "02", 
-    title: "Search & Collect Prospects",
-    description: "Use LinkedIn search to find your ideal prospects. Our system automatically collects enriched profile data.",
-    details: "✓ Profile data & experience\n✓ Recent posts & activity\n✓ Company information"
+    title: "Neural Data Mining Engine",
+    description: "Deploy machine learning algorithms for prospect discovery using natural language processing and behavioral analysis.",
+    details: "✓ Deep learning models\n✓ Sentiment analysis algorithms\n✓ Real-time data ingestion"
   },
   {
     step: "03",
-    title: "Create AI Sequences",
-    description: "Build multi-step campaigns with our templates or create custom sequences with conditional logic.",
-    details: "✓ AI-powered personalization\n✓ Mixed email + LinkedIn\n✓ If-then conditions"
+    title: "AI Content Generation Pipeline",
+    description: "Leverage GPT-4 and transformer models to generate contextually-aware messaging with psychological profiling.",
+    details: "✓ Large language models\n✓ Contextual embeddings\n✓ A/B testing algorithms"
   },
   {
     step: "04",
-    title: "Launch & Monitor",
-    description: "Set your daily limits and launch. Monitor performance, reply rates, and manage conversations in one inbox.",
-    details: "✓ Real-time analytics\n✓ Unified inbox\n✓ Auto-pause on replies"
+    title: "Autonomous Campaign Orchestration",
+    description: "Execute multi-channel automation with predictive analytics, real-time optimization, and intelligent scheduling.",
+    details: "✓ Predictive send algorithms\n✓ Performance monitoring\n✓ Auto-scaling infrastructure"
   }
 ];
 
@@ -33,16 +33,16 @@ const HowItWorks = () => {
     <section className="py-20 bg-gradient-subtle">
       <div className="container mx-auto px-4">
         <div className="text-center space-y-4 mb-16">
-          <Badge className="bg-primary/10 text-primary border-primary/20">
-            🛠️ Simple Process
+          <Badge className="bg-gradient-tech text-white border-none shadow-glow">
+            ⚡ AI Architecture
           </Badge>
           <h2 className="text-3xl lg:text-5xl font-bold text-foreground">
-            Get Started in
-            <span className="bg-gradient-primary bg-clip-text text-transparent"> 4 Easy Steps</span>
+            Deploy Advanced
+            <span className="bg-gradient-ai bg-clip-text text-transparent"> AI Infrastructure</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            From setup to sending your first campaign, we'll have you up and running 
-            with personalized outreach in under 10 minutes.
+            Enterprise-grade machine learning pipeline deployment with neural network 
+            integration and autonomous optimization protocols.
           </p>
         </div>
         
@@ -52,10 +52,10 @@ const HowItWorks = () => {
               key={index}
               className="relative overflow-hidden hover:shadow-card transition-all duration-300 border border-border/50"
             >
-              <div className="absolute top-0 left-0 w-full h-1 bg-gradient-primary"></div>
+              <div className="absolute top-0 left-0 w-full h-1 bg-gradient-ai"></div>
               <CardHeader className="space-y-4">
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-gradient-primary rounded-full flex items-center justify-center text-primary-foreground font-bold text-lg">
+                  <div className="w-12 h-12 bg-gradient-ai rounded-full flex items-center justify-center text-white font-bold text-lg">
                     {step.step}
                   </div>
                   <CardTitle className="text-xl">{step.title}</CardTitle>

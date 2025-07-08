@@ -3,40 +3,40 @@ import { Badge } from "@/components/ui/badge";
 
 const features = [
   {
-    title: "LinkedIn Data Collection",
-    description: "Automatically collect prospect data from LinkedIn searches including profiles, posts, experience, and company information.",
-    icon: "🔍",
-    badge: "LinkedIn API"
+    title: "Neural Network Prospecting",
+    description: "Advanced deep learning algorithms analyze LinkedIn profiles, extracting behavioral patterns and intent signals for precision targeting.",
+    icon: "🧠",
+    badge: "Deep Learning"
   },
   {
-    title: "AI-Powered Sequences",
-    description: "Create multi-step outreach campaigns with icebreaker emails, follow-ups, and LinkedIn messages using AI personalization.",
+    title: "GPT-4 Message Generation",
+    description: "Cutting-edge language models generate contextually-aware, hyper-personalized messages that adapt to prospect psychology and preferences.",
     icon: "🤖",
-    badge: "AI Generated"
+    badge: "AI Powered"
   },
   {
-    title: "Smart Enrichment",
-    description: "Enrich prospect data with company insights, recent posts, and personalization angles for higher conversion rates.",
+    title: "Predictive Analytics Engine",
+    description: "Machine learning models predict optimal send times, response probability, and conversion likelihood using behavioral data analysis.",
+    icon: "📊",
+    badge: "ML Analytics"
+  },
+  {
+    title: "Multi-Channel Orchestration",
+    description: "Intelligent automation coordinates LinkedIn and email touchpoints through sophisticated workflow engines and API integrations.",
+    icon: "🔗",
+    badge: "API Integration"
+  },
+  {
+    title: "Intelligent Decision Trees",
+    description: "Dynamic conditional logic powered by AI adjusts campaigns in real-time based on prospect engagement and behavioral triggers.",
     icon: "⚡",
-    badge: "Data Enrichment"
-  },
-  {
-    title: "Mixed Campaigns",
-    description: "Combine LinkedIn activities (connections, messages, likes) with email sequences for maximum reach and engagement.",
-    icon: "🎯",
-    badge: "Multi-Channel"
-  },
-  {
-    title: "Conditional Logic",
-    description: "Set up if-then conditions in your sequences. Auto-pause when prospects reply and get notified instantly.",
-    icon: "🔄",
     badge: "Smart Logic"
   },
   {
-    title: "Unified Inbox",
-    description: "Manage all conversations from LinkedIn and email in one place. Track campaign performance and response rates.",
-    icon: "📧",
-    badge: "Centralized"
+    title: "Unified Data Pipeline",
+    description: "Real-time data synchronization across platforms with advanced ETL processes and comprehensive conversation analytics.",
+    icon: "💾",
+    badge: "Data Pipeline"
   }
 ];
 
@@ -45,16 +45,16 @@ const Features = () => {
     <section id="features" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center space-y-4 mb-16">
-          <Badge className="bg-primary/10 text-primary border-primary/20">
-            ✨ Powerful Features
+          <Badge className="bg-gradient-ai text-white border-none shadow-glow">
+            🚀 Advanced AI Technology
           </Badge>
           <h2 className="text-3xl lg:text-5xl font-bold text-foreground">
-            Everything You Need for
-            <span className="bg-gradient-primary bg-clip-text text-transparent"> Successful Outreach</span>
+            Enterprise-Grade
+            <span className="bg-gradient-ai bg-clip-text text-transparent"> AI Infrastructure</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            From LinkedIn prospecting to AI-powered messaging, we've built the complete 
-            solution for modern sales teams.
+            Powered by cutting-edge machine learning models, neural networks, and advanced 
+            automation algorithms built for scale and precision.
           </p>
         </div>
         

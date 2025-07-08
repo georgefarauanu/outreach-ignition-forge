@@ -2,24 +2,24 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const stats = [
   {
-    number: "300%",
-    label: "Average Reply Rate Increase",
-    description: "Higher engagement with AI-powered personalization"
+    number: "99.7%",
+    label: "AI Model Accuracy",
+    description: "Neural network precision in prospect analysis"
   },
   {
-    number: "10k+",
-    label: "Active Users",
-    description: "Sales professionals trust OutreachPro daily"
+    number: "10M+",
+    label: "Data Points Processed",
+    description: "Real-time machine learning computations daily"
   },
   {
-    number: "2M+", 
-    label: "Messages Sent",
-    description: "Successful outreach campaigns delivered"
+    number: "500ms", 
+    label: "API Response Time",
+    description: "Lightning-fast AI-powered message generation"
   },
   {
-    number: "95%",
-    label: "Customer Satisfaction",
-    description: "Users love our platform and support"
+    number: "24/7",
+    label: "Autonomous Operation",
+    description: "Self-learning algorithms optimize continuously"
   }
 ];
 
@@ -31,7 +31,7 @@ const Stats = () => {
           {stats.map((stat, index) => (
             <Card key={index} className="text-center border-border/50 hover:shadow-card transition-all duration-300">
               <CardContent className="pt-8 pb-8 space-y-2">
-                <div className="text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent">
+                <div className="text-4xl font-bold bg-gradient-ai bg-clip-text text-transparent">
                   {stat.number}
                 </div>
                 <div className="font-semibold text-foreground text-lg">

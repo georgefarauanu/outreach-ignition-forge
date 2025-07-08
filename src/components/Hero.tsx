@@ -8,20 +8,21 @@ const Hero = () => {
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 animate-fade-in-up">
-            <Badge className="w-fit bg-primary/10 text-primary border-primary/20">
-              🚀 AI-Powered Cold Outreach
+            <Badge className="w-fit bg-gradient-ai text-white border-none shadow-glow">
+              🤖 Next-Gen AI Sales Engine
             </Badge>
             
             <div className="space-y-6">
               <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
-                Automate Your
-                <span className="bg-gradient-hero bg-clip-text text-transparent"> LinkedIn </span>
-                & Email Outreach
+                AI-Powered
+                <span className="bg-gradient-hero bg-clip-text text-transparent"> Outreach </span>
+                Intelligence Platform
               </h1>
               
               <p className="text-xl text-muted-foreground leading-relaxed max-w-xl">
-                Connect with prospects on LinkedIn, collect enriched data, and send personalized 
-                sequences that convert. Boost your reply rates by 300% with AI-powered messaging.
+                Leverage advanced machine learning algorithms to automate LinkedIn prospecting, 
+                generate hyper-personalized messaging, and optimize conversion rates through 
+                predictive analytics and intelligent automation.
               </p>
             </div>
             
