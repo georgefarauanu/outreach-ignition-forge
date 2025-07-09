@@ -6,9 +6,9 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-            <span className="text-primary-foreground font-bold text-lg">O</span>
+            <span className="text-primary-foreground font-bold text-lg">P</span>
           </div>
-          <span className="text-xl font-bold text-foreground">OutreachPro</span>
+          <span className="text-xl font-bold text-foreground">Palpitch</span>
         </div>
         
         <nav className="hidden md:flex items-center space-x-8">

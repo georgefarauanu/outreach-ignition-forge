@@ -8,9 +8,9 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">O</span>
+                <span className="text-primary-foreground font-bold text-lg">P</span>
               </div>
-              <span className="text-xl font-bold text-foreground">OutreachPro</span>
+              <span className="text-xl font-bold text-foreground">Palpitch</span>
             </div>
             <p className="text-muted-foreground">
               The most powerful cold outreach platform for LinkedIn and email automation. 
@@ -56,7 +56,7 @@ const Footer = () => {
         
         <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <p className="text-muted-foreground text-sm">
-            © 2024 OutreachPro. All rights reserved.
+            © 2024 Palpitch. All rights reserved.
           </p>
           <div className="flex items-center space-x-6 text-sm text-muted-foreground">
             <span>Built with ❤️ for sales teams</span>

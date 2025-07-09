@@ -51,7 +51,7 @@ const Hero = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-elegant">
               <img 
                 src={heroImage} 
-                alt="OutreachPro Dashboard" 
+                alt="Palpitch AI Dashboard" 
                 className="w-full h-auto"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/20 to-transparent"></div>
